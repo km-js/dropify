@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    background: #228B22;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+
+}
+
+#left,#right{
+    min-height: 400px;
+    width: 300px;
+    border: 2px dotted #fff;
+    margin: 20px;
+}
+
+ .list{
+    display: flex;
+    align-items: center;
+    cursor: grab;
+    color: #fff;
+    list-style: none;
+    background: #E75480;
+    height: 60px;
+    margin: 20px;
+}
+
+.icon{
+    width: 10px;
+    margin-right: 15px;
+    margin-left: 20px;
+}
